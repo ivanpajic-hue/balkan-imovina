@@ -1,0 +1,14 @@
+{
+  "name": "balkan-imovina",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory public"
+  }
+}
